@@ -1,0 +1,86 @@
+ body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f8f9fa;
+    }
+    .faq {
+      margin-top: 40px;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .faq h2 {
+      color: #007bff;
+      margin-bottom: 30px;
+    }
+    .question {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .question h3 {
+      font-size: 20px;
+      color: #343a40;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .question p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 0;
+    }
+    .contact {
+      margin-top: 40px;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .contact h2 {
+      font-size: 28px;
+      color: #007bff;
+      margin-bottom: 30px;
+    }
+    .contact p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    form {
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      padding: 12px;
+      font-size: 16px;
+    }
+    textarea {
+      resize: vertical;
+    }
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-info p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "poppins";
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #71b7e6, #7a7a7a);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.success-message {
+  background: linear-gradient(135deg, #bebebe, #9479ff);
+  height: 110px;
+  width: 400px;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.container .success-message .beranda {
+
+  margin-top: 10px;
+}
+
+.container .success-message .beranda a {
+    text-decoration: none;
+    color: rgb(221, 225, 255);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #9e9c9c, #f87fe8); 
+}
+
+.container .success-message .beranda a:hover {
+    background: linear-gradient(135deg, #d0d0d0, #ff97f1); 
+    color: #6e6e97;
+}

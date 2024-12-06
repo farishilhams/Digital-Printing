@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif; /* Correct the font-family name */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto;
+    text-align: center;
+}
+
+/* Add a media query for responsiveness */
+@media (max-width: 768px) {
+    .product {
+        width: 40%; /* Adjust the width for smaller screens */
+    }
+}
+
+.product a {
+    color: rgb(0, 0, 0);
+}
+
+.product-title {
+    color: #e44d26;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-title::before,
+.product-title::after {
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: #e44d26;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-title::before {
+    left: 0;
+}
+
+.product-title::after {
+    right: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: 22%; /* Adjust the width to fit 4 items per row */
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Increase the max-height for larger images */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover img {
+    transform: scale(1.1);
+}
+
+.product-name {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #e44d26;
+    margin-top: 5px;
+}

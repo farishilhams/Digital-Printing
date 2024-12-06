@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #004080;
+}
+
+.product-image {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.product-description {
+  margin-top: 20px;
+}
+
+.specification,
+.features,
+.ordering {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+ul,
+ol,
+p {
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.back-button {
+  margin-top: 20px;
+}

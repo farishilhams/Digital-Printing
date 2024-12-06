@@ -1,0 +1,25 @@
+.product-title {
+    color: #e44d26;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-title::before,
+.product-title::after {
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: #e44d26;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-title::before {
+    left: 0;
+}
+
+.product-title::after {
+    right: 0;
+}

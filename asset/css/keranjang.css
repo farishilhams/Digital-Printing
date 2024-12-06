@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-bottom: 60px; /* Adjust margin to accommodate the sticky checkout */
+}
+
+table {
+    width: 100%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.checkout {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    padding-left: 50px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout p {
+    font-size: 20px;
+}
+
+.checkout a {
+    display: inline-block;
+    background-color: rgb(255, 85, 0);
+    border-radius: 5px;
+    margin-right: 80px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    text-decoration: none;
+}
+
+.checkout a:hover {
+    background-color: rgb(255, 118, 49);
+
+}
+
+.product-title {
+    color: #e44d26;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-title::before,
+.product-title::after {
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: #e44d26;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-title::before {
+    left: 0;
+}
+
+.product-title::after {
+    right: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}

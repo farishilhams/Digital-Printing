@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "poppins";
+    text-decoration: none;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding-left: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-title {
+    color: #e44d26;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-title::before,
+.product-title::after {
+    content: "";
+    height: 2px;
+    width: 40%;
+    background-color: #e44d26;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-title::before {
+    left: 0;
+}
+
+.product-title::after {
+    right: 0;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+}
+
+.item-details img {
+    max-width: 400px; /* Ubah sesuai dengan kebutuhan Anda */
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.item-details-info {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    font-size: 30px;
+    
+    font-weight: bold;
+}
+
+.item-price {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    /* font-weight: bold; */
+    color: #e44d26;
+    font-size: 30px;
+}
+
+
+.item-quantity {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.item-quantity input{
+    padding: 3px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}

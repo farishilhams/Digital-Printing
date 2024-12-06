@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "poppins";
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div .logo a{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+/* navbar search */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav .container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: #414671;
+  padding: 20px 40px;
+}
+
+.nav .container-navbar .logo {
+  color: #dde3f5;
+}
+.nav .container-navbar .search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #ffffff;
+  padding: 0 20px;
+  border-radius: 18px;
+}
+.nav .container-navbar .search-bar img {
+  height: 25px;
+}
+/* * {
+  border: 1px solid black;
+} */
+
+.nav .container-navbar .search-bar input {
+  height: 40px;
+  width: 770px;
+  border: none;
+  background-color: transparent;
+  text-indent: 10px;
+  outline: none;
+}
+
+.nav .container-navbar .ctas{
+  margin-right: 0px;
+}
+
+.nav .container-navbar .ctas a{
+  display: flex;
+  /* margin-right: 20px; */
+  padding: 5px 0px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.nav .container-navbar .ctas img{
+  width: 30px;
+  /* padding: 5px; */
+}
+
+.nav .container-navbar .ctas p{
+  font-weight: bold;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 5px;
+  /* padding: 5px; */
+}
+
+/* .nav .container-navbar .ctas {
+  display: flex;
+  gap: 10px;
+} */
+
+/* .nav .container-navbar .ctas .profile{
+  background-color: #c2c2c2;
+  margin-top: 0;
+  padding: 10px 15px;
+  border-radius: 18px;
+} */
+
+/* .nav .container-navbar .ctas .profile img{
+  width: 25px;
+  padding-top: 0;
+  flex: 1;
+  display: flex;
+  margin-top: 20px;
+} */
+
+/* container-navbar-menu */
+.container-menu {
+  position: sticky;
+  width: 1350px;
+  margin: 5px auto;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #000000c2;
+  z-index: 9999;
+  top: 10px;
+}
+.container-menu .logo img {
+  height: 20px;
+  transition: ease-in 0.1s;
+}
+.container-menu .logo img:hover {
+  transform: scale(1.2);
+}
+.container-menu .beranda, .games,
+.top-up,
+.help,
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-menu p {
+  font-size: 15px;
+  color: #000000c2;
+}
+
+.container-menu p,
+.container-menu img {
+  opacity: 0.8;
+}
+
+.container-menu p:hover,
+.container-menu img:hover {
+  opacity: 1;
+}

@@ -1,0 +1,42 @@
+
+.page {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pag{
+    margin: 20px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.pag li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+    
+}
+
+
+
+li.active {
+    background-color: #df6a21;
+    color: white;
+    margin: 15px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* padding: 10px; */
+    
+}
+
+.pag:hover{
+    background-color: rgb(64, 93, 143);
+    color: white;
+}
